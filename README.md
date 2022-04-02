@@ -8,6 +8,7 @@
 <img src="pic1.png" alt="drawing" width="500"/>
 
 #### 如果有任何不懂, 都可以互相交流
+[Github](https://github.com/wangchenshu/start-java)
 
 #### 本文小綱
 * Section1: Java 是 ?
