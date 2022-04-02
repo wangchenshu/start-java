@@ -13,7 +13,8 @@
 #### 本文小綱
 * Section1: Java 是 ?
 * Section2: Java 基礎
-* Section3: Java修飾符與關鍵字
+* Section3: Java 修飾符與關鍵字
+* Section4: Java 類別與物件, 未完待續
 * SectionX: 未來進行式 ..., 未完待續
 
 ##### 謝謝打家, 打家 bye bye
