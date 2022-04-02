@@ -44,7 +44,7 @@ public class HelloWorld {
 ```
 
 > 有些語法及關鍵字, 還不了解, 沒關係, 到後面就會有更深入的了解, 時間到了, 自然就會, 因為我們是佛系學習。
-<img src="pic1.jpg" alt="drawing" width="500"/>
+<img src="pic1.png" alt="drawing" width="500"/>
 
 ### 今天就到這裡囉
 ###### 寫寫打家, 打家 bye bye
