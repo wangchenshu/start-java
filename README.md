@@ -15,7 +15,8 @@
 * Section2: Java 基礎
 * Section3: Java 修飾符與關鍵字
 * Section4: Java 類別與物件
-* Section5: Java 基本型別, 變數和常數 (未完待續)
+* Section5: Java 基本型別, 變數和常數
+* Section6: Java 參考型別與操作物件 (未完待續)
 * SectionX: 未來進行式 ... (未完待續)
 
 #### 部份內容參考 Java SE8 OCAJP 專業認證指南
