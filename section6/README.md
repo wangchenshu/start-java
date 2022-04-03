@@ -170,3 +170,6 @@ public class TestString {
 | double  | Double    |
 | char    | Character |
 | boolean | Boolean   |
+
+### 今天就到這裡囉
+###### 寫寫打家, 打家 bye bye
