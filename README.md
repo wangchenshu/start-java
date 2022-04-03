@@ -15,7 +15,7 @@
 * Section2: Java 基礎
 * Section3: Java 修飾符與關鍵字
 * Section4: Java 類別與物件
-* Section5: Java 基本數據類型 (未完待續)
+* Section5: Java 基本型別, 變數和常數 (未完待續)
 * SectionX: 未來進行式 ... (未完待續)
 
 ##### 謝謝打家, 打家 bye bye
