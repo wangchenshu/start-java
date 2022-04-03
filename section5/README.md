@@ -19,3 +19,18 @@
     這樣電腦才能有效率分配合適的記憶體空間進行計算。
 
 > 變數宣告型別後, 可以一直 "改變" 數值, 故名 "變數"。
+
+```java
+// 範例:
+public class TestVar {
+    public static void main(String[] args) {
+        // x 是變數名稱, 0 是賦予該變數的數值
+        int x = 0;
+        System.out.println("x = " + x);
+
+        // 重新賦予該變數新的數值
+        x = 1;
+        System.out.println("x = " + x);
+    }
+}
+```
