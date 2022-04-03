@@ -89,7 +89,68 @@ String name2 = "Jack 這真是太神奇了!";
 > 讓 name2 指向該已經生成的 "Jack 這真是太神奇了!" 字串, 不再新產生, 避免記憶體浪費。
 
 ##### String 類別是 immutable
-> 待續...
+> 要將字串相連, 是在使用字串時很常見的一個需求, 有兩種方式:
+```java
+// 範例:
+String name1 = "Chance";
+String name2 = name1 + " is my name";
+String name3 = name1.concat(" is my name")
+```
+
+|         | 說明       |
+|  ----   | ----      |
+| 1 | 使用字面常量(String literal)時, 將自動生成 String Object |
+| 2 | 使用運算子 "+" 讓字串相連  |
+| 3 | 也可以使用 String 類別的內建方法 "concat" 讓字串相連 |
+
+    必須注意的是, 因為字串是 "immutable(不可改變)", 字串相連並非讓 "原字串物件"
+    連接新字串, 而是 將原字串複制一份 後再加上要相連的字串。
+    所以 name2 和 name3 將參照到不同於 name1 的一個新記憶體位址。
+
+##### String 類別的其他方法
+> 另外, String 類別經常被使用, 它常用的內建方法也必須知道。
+> 除了已知可以使用運算整 "+" 和方法 "concat" 讓字串相連外, 還有:
+* 使用 length() 取得字串長度
+* 使用 toUpperCase() 或 toLowerCase() 將字串內的字元轉換為全部大寫或全部小寫。
+* 使用 trim() 去除字串前後空白
+* 使用 substring() 由字串內取出部分字串
+* 使用 endsWith() 判斷字串結尾
+
+```java
+// 範例:
+public class TestString {
+    public static void main(String[] args) {
+        // My name
+        String name = "Chance Wang ";
+        System.out.println("My name is " + name);
+
+        // length()
+        int length = name.length();
+        System.out.println("length: " + length);
+
+        // trim()
+        name = name.trim();
+
+        // toLowerCase()
+        String lowerCaseName = (name + " Is My Name").toLowerCase();
+        System.out.println(lowerCaseName);
+
+        // substring()
+        String lastName = name.substring(7);
+        System.out.println(lastName);
+
+        // endsWith()
+        boolean end = name.endsWith("Wang");
+        System.out.println(end);
+    }
+}
+// 以上會輸出:
+//   My name is Chance Wang 
+//   length: 12
+//   chance wang is my name
+//   Wang
+//   true
+```
 
 #### 基本型別的包覆類別
 ##### 包覆類別的由來與使用
