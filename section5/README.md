@@ -34,3 +34,27 @@ public class TestVar {
     }
 }
 ```
+
+> 在 Java 領域裡, 型別分二大類:
+* 基本型別 (Primitive Type):
+  變數用於數學基礎運算, 邏輯判斷, 字元處理等。
+  將在本章節介紹。
+* 參考型別 (Reference Type):
+  變數用於物件導向程式設計裡的物件(objects) 儲存。
+  將在之後章節介紹。
+
+#### Java 的基本型別
+> Java 的基本型別分為四類, 共八種, 如下:
+
+|  類型           | 型別   |  位元組(bytes)   | 位元數(bits)  | 最小值 | 最大值 |
+|  ----          | ----   | ----            | ----         |  ---- |  ---- |
+| 整數 Integral   | byte   | 1               | 8            | -128  | 127   |
+|                | short  | 2               | 16            | -2<sup>15</sup>  | 2<sup>15</sup>-1 |
+|                | int    | 4               | 32            | -2<sup>31</sup>  | 2<sup>31</sup>-1 |
+|                | long   | 8               | 64            | -2<sup>63</sup>  | 2<sup>63</sup>-1 |
+| 浮點數          | float  | 單精確度, 32-bit 浮點數 |         | 依 IEEE 754 標準   |  |
+| Floating point | double | 雙精確度, 64-bit 浮點數 |         | 依 IEEE 754 標準   |  |
+| 字元 Textual    | char   | 2               | 16           | '\u0000'- '\uffff'|  |
+| 布林值 Logical  | boolean | 1               | 8           | true, false        |  |
+
+#### Java 字面常量
