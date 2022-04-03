@@ -2,7 +2,7 @@ package section4.src.main.java.com.my.service;
 
 public class Dog {
     // 名字
-    private String name;  
+    private String name;
     // 年齡 
     private int age;
     // 顏色
