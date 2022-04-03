@@ -11,8 +11,7 @@
 [Github](https://github.com/wangchenshu/start-java)
 > 如果有住高雄的朋友, 也可以來找我, 一起互相學習喔
 >
-> 如果住台北的朋友, 可以到 Hacking Thursday 聚會喔
-[Hacking Thursday](https://zh-tw.facebook.com/groups/hackingday/)
+> 如果住台北的朋友, 可以到 [Hacking Thursday](https://zh-tw.facebook.com/groups/hackingday/) 聚會喔
 
 #### 本文小綱
 * Section1: Java 是 ?
