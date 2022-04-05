@@ -11,7 +11,7 @@
 [Github](https://github.com/wangchenshu/start-java)
 > 如果有住高雄的朋友, 也可以來找我, 一起互相學習喔
 >
-> 如果是住台北的朋友, 可以到 [Hacking Thursday](https://zh-tw.facebook.com/groups/hackingday/) 聚會
+> 如果是住台北的朋友, 可以到 [Hacking Thursday](https://zh-tw.facebook.com/groups/hackingday/) 聚會,
 > 那裡可是高手雲集, 絕對可以學到很多技術及經驗喔。
 
 #### 本文小綱
@@ -24,7 +24,7 @@
 * Section7: 使用選擇結構和相關運算子 (未完待續)
 * SectionX: 未來進行式 ... (未完待續)
 
-#### 部份內容參考 Java SE8 OCAJP 專業認證指南
+#### 內容參考 Java SE8 OCAJP 專業認證指南
 ##### 謝謝打家, 打家 bye bye
 
 ###### 掰掰掰掰掰~~~~~

@@ -160,7 +160,7 @@ public class TestString {
 > 因為特色在於將各自對應的基本型別視為核心, 將之以物件型態 "包覆",
 > 也稱為基本型別的 "包覆類別(wrapper class)。 對應關係如下:
 
-|  基本型別| 包覆型別   |
+| 基本型別 | 包覆型別   |
 |  ----   | ----      |
 | byte    | Byte      |
 | short   | Short     |
