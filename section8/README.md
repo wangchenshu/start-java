@@ -106,3 +106,22 @@ public class TestArrayInit {
     }
 }
 ```
+
+#### 認識並建立二維陣列
+> 多維陣列的概念, 在於:
+* 第一層陣列裡的成員是第二層陣列(二維)
+* 第二層陣列裡的成員是第三層陣列(三維)
+...
+* 第 N-1 層陣列裡的成員是第N層陣列(N維)
+
+##### 第一部份: 宣告 (Declaring)
+```java
+// 語法:
+type [][] array_identifier;
+// type: 陣列的成員型別
+// array_identifier: 陣列名稱
+```
+和一維陣列的比較, 關鍵在於使用二個 [], 如:
+```java
+int [][] rowColumns;
+```
